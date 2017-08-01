@@ -1,0 +1,329 @@
+<!-- 收藏页面 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>信息平台收藏页</title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/self_add_index.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- 头部开始 -->
+<div class="contain_fluid lineHeight head_top">
+	<div class="container lineHeight ">
+		<div class="col-md-3 text-center" style="height:56px;line-height:56px;">
+			<img src="../imgs/logo.png" height="19" width="131" alt="">
+		</div>
+		<div class="col-md-6 lineHeight head_from">
+			<form action="">
+				<div class="form-group self_search_absolute">
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				    <div class="glyphicon glyphicon-search self_search"></div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-3">
+			<div class="col-md-6 text-center head_right">
+				<a href="#">
+					<img src="../imgs/home.png" height="21" width="24" alt="">
+					<span>首页</span>
+				</a>
+				<!-- <a href="#">首页</a> -->
+			</div>
+			<div class="col-md-6 text-center head_right">
+				<a href="#">
+					<img src="../imgs/sign_out.png" height="19" width="19" alt="">
+					<span>退出</span>
+				</a>
+				<!-- <a href="#">退出</a> -->
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 阴影部分开始 -->
+<div class="container bg_content">
+	<div class="container yinying"></div>
+	<div class="container yinying_above">
+		<div class="col-md-3">
+			<div class="row person_all">
+				<div class="col-md-12 preson_head text-center" style="padding:20px! important;">
+					<img src="../imgs/person_head.png" height="84" width="84" alt="">
+					<p><strong>文大侠</strong></p>
+					<p>茂名分公司-业务支持中心</p>
+				</div>
+				<div class="col-md-12 person_content">
+					　  "今天天气很不错，阳光明媚，不要老是下雨就好了~今天依旧努力工作!"
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 preson_ul" style="padding:0;">
+					<ul class="list-group">
+						<li class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp;
+						我的代办</li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>&nbsp;
+						我的已办</li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;
+						我的发布</li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>&nbsp;
+						我收藏的</li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;
+						个人管理</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 这部分每个页面需要的 -->
+		<div class="col-md-9 change" style="margin-top:0;">
+			<div class="col-md-12 right_main">
+				<div class="media">
+					<div class="media-left media-middle" style="vertical-align: top;">
+						<a href="#">
+							<img class="media-object" src="../imgs/person_head.png" height="64" width="64" alt="...">
+						</a>
+					</div>
+					<div class="media-body">
+						<div class="col-md-12">
+							<h2 class="media-heading col-md-6 media_title">陆小凤</h2>
+							<small class="col-md-6 text-muted text-right font_small" style="line-height:30px;">今天 12:22</small>
+						</div>
+						<small class="col-md-12 text-muted lineHeight font_small">
+							茂名分公司-业务支持中心
+						</small>
+						<div class="col-md-12" style="line-height:22px;">
+							 【为什么手机总是黑屏死机？ 】可以把手机看成 PC，当运行出错是时也会死机。1.有时候手
+							机的硬件水平跟不上，运行大型的应用和游戏的时候就会很卡，或者卡死。2.开启过多的程
+							序，占用过多的资源也会卡死。可以结束点不用的程序。3.部分第三方固件存在BUG，可以试
+							着刷一个官方的固件。 
+						</div>
+					</div>
+				</div>
+				<!-- 4个按钮形式开始 -->
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default font_small">指派</button>
+						<div class="sangle"></div>
+					</div>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default font_small">转发（19）</button>
+					</div>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default font_small">已收藏</button>
+					</div>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default font_small">评论（69）</button>
+					</div>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default font_small">点赞（9）</button>
+					</div>
+				</div>
+				<!-- 信息处理开始 -->
+				<div class="col-md-12 processing_progress">
+					<div class="list-group">
+						<a href="#" class="list-group-item text-center progress_title" style="background:#fca87c;">
+							<h4 class="list-group-item-heading font_small">
+							         处理进度：已分派3人&nbsp;已处理2人
+							</h4>
+						</a>
+						<div class="col-md-12 col-xs-12 progress_ul">
+							<div class="col-md-1 col-xs-3 text-center no_padding text-primary font_small padding_top">文大侠：</div>
+							<div class="col-md-11 col-xs-9 border_bottom no_padding_left paddin_top_bottom">
+								<div class="row">
+									<div class="col-md-12 font_small">处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了处理情况完了</div>
+									<small class="col-md-3 text-muted font_small">2016-12-12 12:12</small>
+									<small class="col-md-9 text-left text-muted font_small">已完成</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-xs-12 progress_ul">
+							<div class="col-md-1 col-xs-3 text-center no_padding text-primary font_small padding_top">文大侠：</div>
+							<div class="col-md-11 col-xs-9 border_bottom no_padding_left paddin_top_bottom">
+								<div class="row">
+									<div class="col-md-12 font_small">处理情况完了</div>
+									<small class="col-md-3 text-muted font_small">2016-12-12 12:12</small>
+									<small class="col-md-9 text-left text-muted font_small">已完成</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-xs-12 progress_ul">
+							<div class="col-md-1 col-xs-3 text-center no_padding text-primary font_small padding_top">文大侠：</div>
+							<div class="col-md-11 col-xs-9 border_bottom no_padding_left paddin_top_bottom">
+								<div class="row">
+									<div class="col-md-12 font_small">处理情况完了</div>
+									<small class="col-md-3 text-muted font_small">2016-12-12 12:12</small>
+									<small class="col-md-9 text-left text-muted font_small">已完成</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-xs-12 progress_ul">
+							<div class="col-md-1 col-xs-3 text-center no_padding text-primary font_small padding_top">文大侠：</div>
+							<div class="col-md-11 col-xs-9 no_padding_left paddin_top_bottom">
+								<div class="row">
+									<div class="col-md-12 font_small">处理情况完了</div>
+									<small class="col-md-3 text-muted font_small">2016-12-12 12:12</small>
+									<small class="col-md-9 text-left text-muted font_small">已完成</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 第二部分开始 -->
+			<div class="col-md-12 change" style="padding-left:0;">
+				<div class="col-md-12 right_main">
+					<div class="media">
+						<div class="media-left media-middle" style="vertical-align: top;">
+							<a href="#">
+								<img class="media-object" src="../imgs/person_head.png" height="64" width="64" alt="...">
+							</a>
+						</div>
+						<div class="media-body">
+							<div class="col-md-12">
+								<h2 class="media-heading col-md-6 media_title">陆小凤</h2>
+								<small class="col-md-6 text-muted text-right font_small" style="line-height:30px;">今天 12:22</small>
+							</div>
+							<small class="col-md-12 text-muted lineHeight font_small">
+								茂名分公司-业务支持中心
+							</small>
+							<div class="col-md-12" style="line-height:22px;">
+								 【为什么手机总是黑屏死机？ 】可以把手机看成 PC，当运行出错是时也会死机。1.有时候手
+								机的硬件水平跟不上，运行大型的应用和游戏的时候就会很卡，或者卡死。2.开启过多的程
+								序，占用过多的资源也会卡死。可以结束点不用的程序。3.部分第三方固件存在BUG，可以试
+								着刷一个官方的固件。 
+							</div>
+						</div>
+					</div>
+					<!-- 4个按钮形式开始 -->
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">指派</button>
+							<div class="sangle"></div>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">转发（19）</button>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">已收藏</button>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">评论（69）</button>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">点赞（9）</button>
+						</div>
+					</div>
+					<!-- 图片处理开始 -->
+					<div class="col-md-12 processing_progress">
+						<form action="">
+							<div class="col-md-1">
+								<img src="../imgs/home.png" height="21" width="24" alt="">
+							</div>
+							<div class="col-md-11">
+								<input type="text" class="col-md-12 input-sm">
+							</div>
+						</form>
+						<div class="row ">
+							<div class="col-md-1"></div>
+							<div class="col-md-11">
+								<div class="col-md-8" style="margin-top:20px;height:34px;line-height:34px;vertical:middle;">
+									<img src="../imgs/home.png" height="24" width="24" alt="">
+									<a href="#" style="font-size:16px;display:inline-block;height:34px;line-height:34px;color:#000000;">图片</a>
+								</div>
+								<div class="col-md-2 text-center" style="margin-top:20px;padding:0;">
+									<select name="" id="" class="select_style text-center selectpicker font_small" data-style="btn-primary">
+									<option value="finish" class="select_style text-center">已结束</option>
+									<option value="finish" class="select_style text-center">下个处理人</option>
+								</select>
+								</div>
+								<div class="col-md-2" style="margin-top:20px;">
+									 <button type="button" class="btn btn-primary">原始按钮</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 提交按钮点击 -->
+				</div>
+			</div>
+			<!-- 第三部分开始 -->
+			<div class="col-md-12 change" style="padding-left:0;">
+				<div class="col-md-12 right_main">
+					<div class="media">
+						<div class="media-left media-middle" style="vertical-align: top;">
+							<a href="#">
+								<img class="media-object" src="../imgs/person_head.png" height="64" width="64" alt="...">
+							</a>
+						</div>
+						<div class="media-body">
+							<div class="col-md-12">
+								<h2 class="media-heading col-md-6 media_title">陆小凤</h2>
+								<small class="col-md-6 text-muted text-right" style="line-height:30px; font_small">今天 12:22</small>
+							</div>
+							<small class="col-md-12 text-muted lineHeight font_small">
+								茂名分公司-业务支持中心
+							</small>
+							<div class="col-md-12" style="line-height:22px;">
+								 【为什么手机总是黑屏死机？ 】可以把手机看成 PC，当运行出错是时也会死机。1.有时候手
+								机的硬件水平跟不上，运行大型的应用和游戏的时候就会很卡，或者卡死。2.开启过多的程
+								序，占用过多的资源也会卡死。可以结束点不用的程序。3.部分第三方固件存在BUG，可以试
+								着刷一个官方的固件。 
+							</div>
+						</div>
+					</div>
+					<!-- 图片上传展示开始 -->
+					<div class="col-md-8 col-md-offset-2 imgs_show">
+						<ul>
+							<li>
+								<img src="../imgs/car.jpg" alt="">
+							</li>
+							<li>
+								<img src="../imgs/car.jpg" alt="" >
+							</li>
+							<li>
+								<img src="../imgs/car.jpg" alt="">
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<img src="../imgs/car.jpg" alt="">
+							</li>
+							<li>
+								<img src="../imgs/car.jpg" alt="">
+							</li>
+							<li>
+								<img src="../imgs/car.jpg" alt="">
+							</li>
+						</ul>
+					</div>
+					<!-- 4个按钮形式开始 -->
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">指派</button>
+							<div class="sangle"></div>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">转发（19）</button>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">已收藏</button>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">评论（69）</button>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default font_small">点赞（9）</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
